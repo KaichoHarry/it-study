@@ -1,0 +1,22 @@
+{
+  "name": "it-study",
+  "version": "1.0.0",
+  "description": "IT 関連の学習内容や、LT（ライトニングトーク）などの発表資料をまとめるリポジトリです。",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "marp --config marp.config.mjs --server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaichoHarry/it-study.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KaichoHarry/it-study/issues"
+  },
+  "homepage": "https://github.com/KaichoHarry/it-study#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.5.1"
+  },
+  "private": true,
+  "type": "module"
+}
